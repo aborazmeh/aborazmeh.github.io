@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>python on aborazmeh</title>
+    <link>http://www.aboraz.me/tags/python/</link>
+    <description>Recent content in python on aborazmeh</description>
+    <image>
+      <url>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar-sy</language>
+    <lastBuildDate>Wed, 24 Jun 2009 07:23:45 +0000</lastBuildDate><atom:link href="http://www.aboraz.me/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>برمجة تطبيقات الجوال لـS60 باستخدام Python</title>
+      <link>http://www.aboraz.me/posts/programming-symbian-s60-apps-with-python/</link>
+      <pubDate>Wed, 24 Jun 2009 07:23:45 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/programming-symbian-s60-apps-with-python/</guid>
+      <description>عرض لمكتبة PyS60 لبرمجة تطبيقات بلغة البرمجة Python على نظام Symbian S60 لأجهزة نوكيا وغيرها، وكتاب الدليل</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>أمان on aborazmeh</title>
+    <link>http://www.aboraz.me/tags/%D8%A3%D9%85%D8%A7%D9%86/</link>
+    <description>Recent content in أمان on aborazmeh</description>
+    <image>
+      <url>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar-sy</language>
+    <lastBuildDate>Sat, 14 Nov 2009 12:50:45 +0000</lastBuildDate><atom:link href="http://www.aboraz.me/tags/%D8%A3%D9%85%D8%A7%D9%86/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>الاستعمالات الكاملة للأداة ClamAV sigtool</title>
+      <link>http://www.aboraz.me/posts/full-usage-of-clamav-sigtool/</link>
+      <pubDate>Sat, 14 Nov 2009 12:50:45 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/full-usage-of-clamav-sigtool/</guid>
+      <description>الاستعمالات الكاملة للأداة sigtool التي يستعملها مضاد الفايروسات الحر ClamAV لإنشاء تعريفات الفيروسات في قاعدة البيانات ووظائف مساعدة متعلقة أخرى</description>
+    </item>
+    
+    <item>
+      <title>حذف تعريف فيروس من قاعدة بيانات ClamAV</title>
+      <link>http://www.aboraz.me/posts/remove-virus-definition-from-clamav-database/</link>
+      <pubDate>Wed, 11 Nov 2009 11:37:54 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/remove-virus-definition-from-clamav-database/</guid>
+      <description>شرح مختصر لطرق حذف تعريف فيروس من قاعدة بيانات فيروسات مضاد الفايروسات الحر ClamAV سواءً بمراسلة المطورين لحذف التعريف كونه غير صحيح، أو لإجراء التجارب</description>
+    </item>
+    
+    <item>
+      <title>كيفية تعامل ClamAV مع بعض أنواع الملفات الخاصة</title>
+      <link>http://www.aboraz.me/posts/how-clamav-deal-with-some-special-file-types/</link>
+      <pubDate>Thu, 05 Nov 2009 12:11:27 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/how-clamav-deal-with-some-special-file-types/</guid>
+      <description>عرض لكيفية تعامل ClamAV مع بعض أنواع الملفات الخاصة، كـHTML، أو الملفات النصية، أو الملفات الثنائية أو التنفيذية المضغوطة</description>
+    </item>
+    
+    <item>
+      <title>إضافة تعريف فيروس إلى قاعدة بيانات ClamAV</title>
+      <link>http://www.aboraz.me/posts/add-virus-definition-to-clamav-database/</link>
+      <pubDate>Sat, 31 Oct 2009 18:00:51 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/add-virus-definition-to-clamav-database/</guid>
+      <description>شرح مختصر لطرق إضافة تعريف فيروس إلى قاعدة بيانات فيروسات مضاد الفايروسات الحر ClamAV سواءً بإرساله للمطورين أو إدخاله يدوياً</description>
+    </item>
+    
+    <item>
+      <title>فك القفل في نوكيا عن طريق شريحة الذاكرة</title>
+      <link>http://www.aboraz.me/posts/nokia-symbian-unlock/</link>
+      <pubDate>Wed, 24 Jun 2009 08:09:56 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/nokia-symbian-unlock/</guid>
+      <description>كيفية فك القفل في أجهزة جوال نوكيا S60 الجيل الثاني عن طريق شريحة الذاكرة وإعادة تعيين كلمة المرور</description>
+    </item>
+    
+    <item>
+      <title>كشف الأنظمة والخدمات باستخدام banner-grabbing</title>
+      <link>http://www.aboraz.me/posts/detect-os-and-services-banner-grabbing/</link>
+      <pubDate>Sun, 21 Jun 2009 09:11:44 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/detect-os-and-services-banner-grabbing/</guid>
+      <description>استخدام رسائل ردود البروتوكولات والخدمات على طلبات المستخدم لكشف نوع وإصدار المخدم</description>
+    </item>
+    
+    <item>
+      <title>تشفير المحادثات الخاصة باستخدام OTR</title>
+      <link>http://www.aboraz.me/posts/encrypting-private-conversations-using-otr/</link>
+      <pubDate>Sat, 20 Jun 2009 17:55:39 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/encrypting-private-conversations-using-otr/</guid>
+      <description>استخدام إضافة البروتوكول Off-the-Record لتطبيق التشفير على المحادثات الخاصة باستخدام عدة تطبيقات تدعمها الإضافة</description>
+    </item>
+    
+    <item>
+      <title>نظام ملفات مشفر باستخدام Truecrypt</title>
+      <link>http://www.aboraz.me/posts/encrypted-filesystem-with-truecrypt/</link>
+      <pubDate>Sat, 20 Jun 2009 17:25:39 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/encrypted-filesystem-with-truecrypt/</guid>
+      <description>إنشاء نظام ملفات مشفر عام على عدة أنظمة تشغيل باستخدام البرنامج الحر Truecrypt</description>
+    </item>
+    
+  </channel>
+</rss>

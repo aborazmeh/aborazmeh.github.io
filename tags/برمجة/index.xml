@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>برمجة on aborazmeh</title>
+    <link>http://www.aboraz.me/tags/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/</link>
+    <description>Recent content in برمجة on aborazmeh</description>
+    <image>
+      <url>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar-sy</language>
+    <lastBuildDate>Thu, 02 Feb 2017 07:56:13 +0000</lastBuildDate><atom:link href="http://www.aboraz.me/tags/%D8%A8%D8%B1%D9%85%D8%AC%D8%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>التعامل مع تطبيقات الصوت في i3wm</title>
+      <link>http://www.aboraz.me/posts/music-script-for-i3wm-mpd-playerctl/</link>
+      <pubDate>Thu, 02 Feb 2017 07:56:13 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/music-script-for-i3wm-mpd-playerctl/</guid>
+      <description>برنامج للتعامل مع عدة مشغلات صوت أو فيديو كـ VLC, SMplayer, MPD, Spotify, mps-youtube وعرض المقطع الجاري تشغيله والتحكم به</description>
+    </item>
+    
+    <item>
+      <title>أتمتة حساب وإرسال التقريرات اليومية باستخدام AutoHotKey</title>
+      <link>http://www.aboraz.me/posts/automate-repots-emails-using-autohotkey/</link>
+      <pubDate>Sat, 21 Jan 2017 12:57:37 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/automate-repots-emails-using-autohotkey/</guid>
+      <description>استخدام لغة البرمجة AutoHotKey لأتمتة فتح ملفات الإكسل، وإخراج بعض القيم، وإجراء بعض الحسابات، وكتابة التقارير، وإرسالها عبر البريد الإلكتروني أو تطبيق الويب من Whatsapp</description>
+    </item>
+    
+    <item>
+      <title>تنبيهات لعدة عناوين بريد إلكتروني في i3wm باستخدام Perl و IMAP</title>
+      <link>http://www.aboraz.me/posts/multiple-emails-notifications-using-imap/</link>
+      <pubDate>Thu, 19 Jan 2017 11:23:49 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/multiple-emails-notifications-using-imap/</guid>
+      <description>كيفية استخدام Perl ومكتبة Net::IMAP::Simple لإرسال التنبيهات عن عدة عناوين بريد إلكتروني مخزنة في مدير كلمات المرور pass باستخدام تعددية مسارب</description>
+    </item>
+    
+    <item>
+      <title>استخدام Perl و Mojo::DOM لسبر وتحميل الملفات من الإنترنت</title>
+      <link>http://www.aboraz.me/posts/use-perl-mojo-to-automate-downloads/</link>
+      <pubDate>Tue, 17 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/use-perl-mojo-to-automate-downloads/</guid>
+      <description>استخدام مكتبة Mojo::DOM في لغة البرمجة Perl لسبر صفحات الويب وتحميل عدة ملفات بناءً على قواعد معينة</description>
+    </item>
+    
+    <item>
+      <title>برمجة برامج بواجهات رسومية باستخدام PHP-GTK&#43;</title>
+      <link>http://www.aboraz.me/posts/gui-programming-with-php-gtk&#43;/</link>
+      <pubDate>Thu, 09 Jul 2009 17:07:48 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/gui-programming-with-php-gtk&#43;/</guid>
+      <description>استخدام لغة البرمجة PHP مع مكتبة GTK&#43; لإنشاء برامج واجهات رسومية ونوافذ تعمل محلياً</description>
+    </item>
+    
+    <item>
+      <title>محركات بحث المصادر البرمجية</title>
+      <link>http://www.aboraz.me/posts/code-search-engines/</link>
+      <pubDate>Wed, 01 Jul 2009 11:14:19 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/code-search-engines/</guid>
+      <description>يحتاج الكثير من المطورين والمبرمجين إلى برامج مصدرية كمثال. أو أن يعلمو كيف يفكر ويبرمج ويكتب المطورون الآخرون الذين سبقوهم بكتابة برامج تقوم بوظيفة شبيهة. وهنا تأتي أهمية محركات بحث المصادر البرمجية حيث تمكن المطور من الحصول على الكود بوسائل أكثر دقةً من وسائل البحث العادية. الفرق الأساسي بين محركات البحث العادية ومحركات المصادر: أن محرك بحث الكود يفهم اللغة المكتوب بها الكود كما يفهم الفرق بين التعليق والكود والكثير من الميزات التي تجعله أفضل عند البحث عن أكواد.</description>
+    </item>
+    
+    <item>
+      <title>برمجة تطبيقات الجوال لـS60 باستخدام Python</title>
+      <link>http://www.aboraz.me/posts/programming-symbian-s60-apps-with-python/</link>
+      <pubDate>Wed, 24 Jun 2009 07:23:45 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/programming-symbian-s60-apps-with-python/</guid>
+      <description>عرض لمكتبة PyS60 لبرمجة تطبيقات بلغة البرمجة Python على نظام Symbian S60 لأجهزة نوكيا وغيرها، وكتاب الدليل</description>
+    </item>
+    
+    <item>
+      <title>نظام تشغيل تعليمي جميل</title>
+      <link>http://www.aboraz.me/posts/nice-educational-operating-system/</link>
+      <pubDate>Mon, 22 Jun 2009 12:58:47 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/nice-educational-operating-system/</guid>
+      <description>عرض لنظام تشغيل تعليمي على معالجات x86 16-bit مكتوب بلغة التجميع، وبعض المشروعات المشابهة</description>
+    </item>
+    
+    <item>
+      <title>الكتابة باللغة العربية في برنامج C</title>
+      <link>http://www.aboraz.me/posts/arabic-in-c-program/</link>
+      <pubDate>Sun, 21 Jun 2009 10:12:42 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/arabic-in-c-program/</guid>
+      <description>الكتابة باللغة العربية في البرامج المكتوبة بلغة C</description>
+    </item>
+    
+    <item>
+      <title>توليد صورة أو ملف من برنامج مكتوب بالـC</title>
+      <link>http://www.aboraz.me/posts/merge-and-generate-file-of-c-program/</link>
+      <pubDate>Sun, 21 Jun 2009 10:04:33 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/merge-and-generate-file-of-c-program/</guid>
+      <description>توليد صورة أو ملف من برنامج مكتوب بلغة البرمجة C</description>
+    </item>
+    
+  </channel>
+</rss>

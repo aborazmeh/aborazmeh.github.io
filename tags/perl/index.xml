@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>perl on aborazmeh</title>
+    <link>http://www.aboraz.me/tags/perl/</link>
+    <description>Recent content in perl on aborazmeh</description>
+    <image>
+      <url>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar-sy</language>
+    <lastBuildDate>Thu, 19 Jan 2017 11:23:49 +0000</lastBuildDate><atom:link href="http://www.aboraz.me/tags/perl/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>تنبيهات لعدة عناوين بريد إلكتروني في i3wm باستخدام Perl و IMAP</title>
+      <link>http://www.aboraz.me/posts/multiple-emails-notifications-using-imap/</link>
+      <pubDate>Thu, 19 Jan 2017 11:23:49 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/multiple-emails-notifications-using-imap/</guid>
+      <description>كيفية استخدام Perl ومكتبة Net::IMAP::Simple لإرسال التنبيهات عن عدة عناوين بريد إلكتروني مخزنة في مدير كلمات المرور pass باستخدام تعددية مسارب</description>
+    </item>
+    
+    <item>
+      <title>استخدام Perl و Mojo::DOM لسبر وتحميل الملفات من الإنترنت</title>
+      <link>http://www.aboraz.me/posts/use-perl-mojo-to-automate-downloads/</link>
+      <pubDate>Tue, 17 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/use-perl-mojo-to-automate-downloads/</guid>
+      <description>استخدام مكتبة Mojo::DOM في لغة البرمجة Perl لسبر صفحات الويب وتحميل عدة ملفات بناءً على قواعد معينة</description>
+    </item>
+    
+  </channel>
+</rss>

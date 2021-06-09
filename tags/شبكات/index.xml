@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>شبكات on aborazmeh</title>
+    <link>http://www.aboraz.me/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/</link>
+    <description>Recent content in شبكات on aborazmeh</description>
+    <image>
+      <url>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar-sy</language>
+    <lastBuildDate>Thu, 19 Nov 2009 19:34:57 +0000</lastBuildDate><atom:link href="http://www.aboraz.me/tags/%D8%B4%D8%A8%D9%83%D8%A7%D8%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>كتاب الشبكات اللاسلكية في الدول النامية</title>
+      <link>http://www.aboraz.me/posts/wireless-networking-in-developing-world/</link>
+      <pubDate>Thu, 19 Nov 2009 19:34:57 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/wireless-networking-in-developing-world/</guid>
+      <description>عرض لكتاب الشبكات اللاسلكية في الدول النامية الذي يتناول حلول حول توفير الاتصالات في الدول النامية أو المناطق النائية عن المدن</description>
+    </item>
+    
+    <item>
+      <title>كشف الأنظمة والخدمات باستخدام banner-grabbing</title>
+      <link>http://www.aboraz.me/posts/detect-os-and-services-banner-grabbing/</link>
+      <pubDate>Sun, 21 Jun 2009 09:11:44 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/detect-os-and-services-banner-grabbing/</guid>
+      <description>استخدام رسائل ردود البروتوكولات والخدمات على طلبات المستخدم لكشف نوع وإصدار المخدم</description>
+    </item>
+    
+  </channel>
+</rss>

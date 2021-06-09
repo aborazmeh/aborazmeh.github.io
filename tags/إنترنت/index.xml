@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>إنترنت on aborazmeh</title>
+    <link>http://www.aboraz.me/tags/%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA/</link>
+    <description>Recent content in إنترنت on aborazmeh</description>
+    <image>
+      <url>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar-sy</language>
+    <lastBuildDate>Tue, 17 Jan 2017 12:00:00 +0000</lastBuildDate><atom:link href="http://www.aboraz.me/tags/%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>استخدام Perl و Mojo::DOM لسبر وتحميل الملفات من الإنترنت</title>
+      <link>http://www.aboraz.me/posts/use-perl-mojo-to-automate-downloads/</link>
+      <pubDate>Tue, 17 Jan 2017 12:00:00 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/use-perl-mojo-to-automate-downloads/</guid>
+      <description>استخدام مكتبة Mojo::DOM في لغة البرمجة Perl لسبر صفحات الويب وتحميل عدة ملفات بناءً على قواعد معينة</description>
+    </item>
+    
+    <item>
+      <title>محركات بحث المصادر البرمجية</title>
+      <link>http://www.aboraz.me/posts/code-search-engines/</link>
+      <pubDate>Wed, 01 Jul 2009 11:14:19 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/code-search-engines/</guid>
+      <description>يحتاج الكثير من المطورين والمبرمجين إلى برامج مصدرية كمثال. أو أن يعلمو كيف يفكر ويبرمج ويكتب المطورون الآخرون الذين سبقوهم بكتابة برامج تقوم بوظيفة شبيهة. وهنا تأتي أهمية محركات بحث المصادر البرمجية حيث تمكن المطور من الحصول على الكود بوسائل أكثر دقةً من وسائل البحث العادية. الفرق الأساسي بين محركات البحث العادية ومحركات المصادر: أن محرك بحث الكود يفهم اللغة المكتوب بها الكود كما يفهم الفرق بين التعليق والكود والكثير من الميزات التي تجعله أفضل عند البحث عن أكواد.</description>
+    </item>
+    
+  </channel>
+</rss>

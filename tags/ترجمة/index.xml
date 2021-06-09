@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>ترجمة on aborazmeh</title>
+    <link>http://www.aboraz.me/tags/%D8%AA%D8%B1%D8%AC%D9%85%D8%A9/</link>
+    <description>Recent content in ترجمة on aborazmeh</description>
+    <image>
+      <url>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
+      <link>http://www.aboraz.me/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>ar-sy</language>
+    <lastBuildDate>Sat, 17 Sep 2016 00:00:00 +0000</lastBuildDate><atom:link href="http://www.aboraz.me/tags/%D8%AA%D8%B1%D8%AC%D9%85%D8%A9/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>ما لا يمكنك قوله</title>
+      <link>http://www.aboraz.me/posts/what-you-cant-say/</link>
+      <pubDate>Sat, 17 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.aboraz.me/posts/what-you-cant-say/</guid>
+      <description>ترجمة مقال What You Can&amp;#39;t Say لـPaul Graham</description>
+    </item>
+    
+  </channel>
+</rss>
