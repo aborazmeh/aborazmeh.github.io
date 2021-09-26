@@ -19,7 +19,7 @@
 <link rel=mask-icon href=http://www.aboraz.me/favicon/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-93925852-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="حذف تعريف فيروس من قاعدة بيانات ClamAV">
 <meta property="og:description" content="شرح مختصر لطرق حذف تعريف فيروس من قاعدة بيانات فيروسات مضاد الفايروسات الحر ClamAV سواءً بمراسلة المطورين لحذف التعريف كونه غير صحيح، أو لإجراء التجارب">
 <meta property="og:type" content="article">
@@ -93,7 +93,7 @@
 <p><code>$sigtool --server [Server Name] -b main.cvd</code></p>
 <p>يجب أن يكون الـServer Name صحيحاً حتى يتم استيراد الـmain.cld بشكل صحيح وإلا لن يتم البناء بشكل صحيح</p>
 <p>وسيطلب منك إدخال بعض المعلومات مثل:</p>
-<pre><code>Version number: 52
+<pre tabindex=0><code>Version number: 52
 Total sigs: 545036
 New sigs: 545036
 Functionality level: 42
@@ -104,7 +104,7 @@ Builder name: aborazmeh
 <p>طريقة عمل ذلك هي وضع المعلومات التي تريد من ClamAV أن يتجنبها عن ملف معين برماز MD5 في ملف من نوع <code>.fp</code> ثم دمجه مع قاعدة البيانات الأصلية التي من نوع CVD.</p>
 <p>أو إذا أردناه أن يتجنب بعض المعلومات الموجودة في قاعدة البيانات الأصلية <code>main.cvd</code> وبدون حذفها فيمكننا ذلك عن طريق وضع ما سأشير إليه في ملف اسمه <code>daily.ign</code> ووضع الملف في مسار قاعدة البيانات أو ملف محلي باسم <code>local.ign</code></p>
 <p>الملف يحوي الصيغة التالية:</p>
-<pre><code>db_name:line_number:signature_name
+<pre tabindex=0><code>db_name:line_number:signature_name
 </code></pre><p>شرح الصيغة:</p>
 <p>أولاً: اسم قاعدة البيانات.</p>
 <p>ثانياً: رقم السطر المطلوب تجاهل بعض من البيانات التي فيه.</p>

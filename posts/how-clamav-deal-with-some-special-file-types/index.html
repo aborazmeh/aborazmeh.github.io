@@ -19,7 +19,7 @@
 <link rel=mask-icon href=http://www.aboraz.me/favicon/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-93925852-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="كيفية تعامل ClamAV مع بعض أنواع الملفات الخاصة">
 <meta property="og:description" content="عرض لكيفية تعامل ClamAV مع بعض أنواع الملفات الخاصة، كـHTML، أو الملفات النصية، أو الملفات الثنائية أو التنفيذية المضغوطة">
 <meta property="og:type" content="article">
@@ -109,7 +109,7 @@
 <p>عند البحث عن ملفات ثنائية مضغوطة ومدعومة من ClamAV مثل UPX و FSG و Petite فيمكنك فك الملف عن طريق:</p>
 <p><code>$clamscan --debug --tempdir . --leave-temps</code></p>
 <p>وسيكون الخرج مشابه لـ</p>
-<pre><code>LibClamAV debug: UPX/FSG/MEW: empty section found - assuming compression
+<pre tabindex=0><code>LibClamAV debug: UPX/FSG/MEW: empty section found - assuming compression
 LibClamAV debug: FSG: found old EP @119e0
 LibClamAV debug: FSG: Unpacked and rebuilt executable saved in
 ./clamav-f592b20f9329ac1c91f0e12137bcce6c.clamtmp

@@ -19,7 +19,7 @@
 <link rel=mask-icon href=http://www.aboraz.me/favicon/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-93925852-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="إضافة تعريف فيروس إلى قاعدة بيانات ClamAV">
 <meta property="og:description" content="شرح مختصر لطرق إضافة تعريف فيروس إلى قاعدة بيانات فيروسات مضاد الفايروسات الحر ClamAV سواءً بإرساله للمطورين أو إدخاله يدوياً">
 <meta property="og:type" content="article">
@@ -114,7 +114,7 @@
 <p>أو اختصاراً</p>
 <p><code>$sigtool -i</code></p>
 <p>وستحصل على خرج مشابه للتالي:</p>
-<pre><code>File: main.cvd
+<pre tabindex=0><code>File: main.cvd
 Build time: 14 May 2009 10:28 -0400
 Version: 51
 Signatures: 545035
@@ -132,7 +132,7 @@ Verification OK.
 <p>فإذا جربنا الأمر:</p>
 <p><code>$clamscan -d test.hdb test.exe</code></p>
 <p>سيتم اكتشاف الفيروس ويكون الخرج كالتالي:</p>
-<pre><code>test.exe: test.exe FOUND
+<pre tabindex=0><code>test.exe: test.exe FOUND
 ----------- SCAN SUMMARY -----------
 Known viruses: 1
 Scanned directories: 0
@@ -155,7 +155,7 @@ Time: 0.024 sec (0 m 0 s)
 <p>وهذه الطريقة هي الافتراضية لقواعد بيانات ClamAV والواقع أن أكثر تطبيقات مضادات الفيروسات تستخدم هذه الطريقة ولو أنها تضيف إليها بعض الميزات لقوة أكبر.</p>
 <p>وهذه الطريقة هي الأفضل لأن MD5 لا يمكنها أن تكون بمرونة هذه الطريقة ولا يمكن التنبيه عن الملفات المصابة إلا عن الفيروس نفسه وإن كان بإمكانها ذلك إلا أنها ليست بالمرونة الكافية لعمل تراميز معقدة كهذه الطريقة كما سيأتي.</p>
 <p>إذا أردنا أن نحسب ترميز النظام الستة عشري لجملة محارف:</p>
-<pre><code>$sigtool --hex-dump
+<pre tabindex=0><code>$sigtool --hex-dump
 anything
 616e797468696e670a
 </code></pre><p>الترميز في السطر الثالث هو ترميز الجملة في السطر الثاني والأول هو الأمر الذي أدخلناه</p>
@@ -285,7 +285,7 @@ anything
 <li>Joke للنكات والطرائف المزعجة.</li>
 </ul>
 <p>أمثلة:</p>
-<pre><code>Worm.Bagle.Gen-zippwd
+<pre tabindex=0><code>Worm.Bagle.Gen-zippwd
 Trojan.FakeAV-198
 Email.Trojan-126
 Email.Phishing.Webmail-32

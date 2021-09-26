@@ -19,7 +19,7 @@
 <link rel=mask-icon href=http://www.aboraz.me/favicon/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-93925852-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="كشف الأنظمة والخدمات باستخدام banner-grabbing">
 <meta property="og:description" content="استخدام رسائل ردود البروتوكولات والخدمات على طلبات المستخدم لكشف نوع وإصدار المخدم">
 <meta property="og:type" content="article">
@@ -102,7 +102,7 @@
 <p>في كل رزمة من رزم أي بروتوكول يتقيد المخدم بالمواصفات البروتوكول وإعداداته، لكنه يطلق حريته فيما عدا ذلك، كترتيب بعض المعلومات المسموح بترتيبها، والإغضاء عن رسائل لا يوجب البروتوكول تقديمها، أو تقديم تقديمها.</p>
 <p>وهذا النوع من الاختلافات بين المخدمات يقود إلى تحديد نوع المخدم بدقة، بل وإصداره في كثير من الأحيان.</p>
 <p>مثال ذلك، رسائل مخدم <code>Apache 2.2.4</code> لرزمة <code>Head / HTTP/1.0</code> ترد بالشكل التالي:</p>
-<pre><code>HTTP/1.1 200 OK
+<pre tabindex=0><code>HTTP/1.1 200 OK
 Date: Mon, 21 Apr 2008 05:38:37 GMT
 Server: Apache/2.2.4 (Unix) DAV/2 PHP/5.2.3
 Last-Modified: Tue, 15 Apr 2008 16:51:15 GMT
@@ -112,7 +112,7 @@ Content-Length: 147
 Connection: close
 Content-Type: text/html
 </code></pre><p>قارن بالمثال التالي وهو رد <code>Microsoft IIS 5.0</code> على نفس الطلب <code>HEAD / HTTP/1.0</code>:</p>
-<pre><code>HTTP/1.1 200 OK
+<pre tabindex=0><code>HTTP/1.1 200 OK
 Server: Microsoft-IIS/5.0
 Expires: Tue, 17 Jun 2003 01:41:33 GMT
 Date: Mon, 16 Jun 2003 01:41:33 GMT
@@ -129,18 +129,18 @@ Content-Length: 7369
 <p>في مخدمات أخرى قد يتغير الترتيب أيضاً، كذلك في الإصدارات المختلفة كما في <code>IIS 6.0</code>. ففي حال كان التريب: نوع المخدم أولاً فيمكنك الافتراض أنه ليس Apache. هذه هي الفكرة ببساطة يمكنك أيضاً استخدام <code>PUT / HTTP/1.0</code> (عملية غير مسموحة) وستكون إجابة Apache:</p>
 <p><code>HTTP/1.1 405 Method Not Allowed</code></p>
 <p>بينما في حال IIS:</p>
-<pre><code>HTTP/1.1 403 Forbidden
+<pre tabindex=0><code>HTTP/1.1 403 Forbidden
 GET / ANYTHING/1.0 (خطأ في اسم البروتوكول)
 </code></pre><p>فـ Apache سيحولها إلى</p>
-<pre><code>HTTP/1.1
+<pre tabindex=0><code>HTTP/1.1
 HTTP/1.1 200 OK
 </code></pre><p>بينما IIS سيفهمها على أنها خطأ</p>
-<pre><code>HTTP/1.1 400 Bad Request
+<pre tabindex=0><code>HTTP/1.1 400 Bad Request
 GET / HTTP/3.0 (خطأ في إصدار البروتوكول )
 </code></pre><p>ستكون استجابة Apache على أنه خطأ</p>
 <p><code>HTTP/1.1 400 Bad Request</code></p>
 <p>بينما يقلبه IIS على أنه</p>
-<pre><code>HTTP/1.1
+<pre tabindex=0><code>HTTP/1.1
 HTTP/1.1 200 OK
 </code></pre><p>وهكذا يمكنك الرجوع إلى وثائق مخدمات الويب، (ووثائق <a href=http://ietf.org/rfc.html>RFC</a>) لمزيد من المعلومات عن رسائل الأخطاء وكيفية استجابة المخدم لكل حدث.</p>
 <p>وطبعاً قد تختلف المعلومات لكن ترتيب الحزمة سيكون كما السابق. وهكذا من أجل مخدمات FTP و SMTP وغيرها، فالاختلاف وارد كما مر.</p>

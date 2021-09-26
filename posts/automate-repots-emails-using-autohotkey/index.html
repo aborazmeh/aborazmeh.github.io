@@ -19,7 +19,7 @@
 <link rel=mask-icon href=http://www.aboraz.me/favicon/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-93925852-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="أتمتة حساب وإرسال التقريرات اليومية باستخدام AutoHotKey">
 <meta property="og:description" content="استخدام لغة البرمجة AutoHotKey لأتمتة فتح ملفات الإكسل، وإخراج بعض القيم، وإجراء بعض الحسابات، وكتابة التقارير، وإرسالها عبر البريد الإلكتروني أو تطبيق الويب من Whatsapp">
 <meta property="og:type" content="article">
@@ -95,7 +95,7 @@
 <p>سأكتب هنا برنامجاً صغيراً أستخدمه لفتح ملف Excel واستخلاص بعض القيم من خلايا معينة، ثم إرسال التقريرات بالبريد، وتحضيرها لإرسالها باستخدام تطبيق Whtsapp Web من متصفح الإنترنت اختيارياً.</p>
 <h1 id=فتح-ملف-microsoft-excel-والتعامل-معه>فتح ملف Microsoft Excel والتعامل معه<a hidden class=anchor aria-hidden=true href=#فتح-ملف-microsoft-excel-والتعامل-معه>#</a></h1>
 <p>نستخدم (<a href="https://msdn.microsoft.com/en-us/library/windows/desktop/ms680573(v=vs.85).aspx">COM Component</a> لفتح ملف الـExcel</p>
-<pre><code class=language-autohotkey data-lang=autohotkey>EnglishToArabicDayNameName(DayNameName) {
+<pre tabindex=0><code class=language-autohotkey data-lang=autohotkey>EnglishToArabicDayNameName(DayNameName) {
   if (DayName = &quot;Saturday&quot;) {
     return &quot;السبت&quot;
   }
@@ -225,7 +225,7 @@ GetReportsFromExcel() {
 }  
 </code></pre><h1 id=إرسال-بريد-باستخدام-بروتوكول-smtp>إرسال بريد باستخدام بروتوكول SMTP<a hidden class=anchor aria-hidden=true href=#إرسال-بريد-باستخدام-بروتوكول-smtp>#</a></h1>
 <p>سنقوم باستخدام COM Component البريد لإرسال بريد عن طريق مخدم SMTP كذلك لاحظ أن البرنامج أدناه لا ينسخ الرسالة إلى مجلّد البريد المرسَل لذلك لن تجدها هناك.</p>
-<pre><code class=language-autohotkey data-lang=autohotkey>SendEmail()
+<pre tabindex=0><code class=language-autohotkey data-lang=autohotkey>SendEmail()
 {
   If !(f:=FileOpen(A_MyDocuments . &quot;\MyReport.xlsm&quot;,&quot;r-rwd&quot;))
   {
@@ -273,7 +273,7 @@ GetReportsFromExcel() {
   return 1
 }
 </code></pre><h1 id=إرسال-تقرير-عبر-تطبيق-whatsapp>إرسال تقرير عبر تطبيق Whatsapp<a hidden class=anchor aria-hidden=true href=#إرسال-تقرير-عبر-تطبيق-whatsapp>#</a></h1>
-<pre><code class=language-autohotkey data-lang=autohotkey>WhatsappSend(Text1, Text2)
+<pre tabindex=0><code class=language-autohotkey data-lang=autohotkey>WhatsappSend(Text1, Text2)
 {
   BlockInput, On                ; منع المستخدم من الإدخال لحماية تسلسل الأوامر
 
@@ -299,7 +299,7 @@ GetReportsFromExcel() {
 }
 </code></pre><h1 id=جميع-ما-تقدم-في-ملف-واحد>جميع ما تقدّم في ملف واحد<a hidden class=anchor aria-hidden=true href=#جميع-ما-تقدم-في-ملف-واحد>#</a></h1>
 <p>الملفات السابقة لإعداد الوظائف التي استخدمناها في ملف البرنامج الذي سيجمعها</p>
-<pre><code class=language-autohotkey data-lang=autohotkey>#NoEnv
+<pre tabindex=0><code class=language-autohotkey data-lang=autohotkey>#NoEnv
 #Persistent
 SendMode Input
 SetWorkingDir %A_ScriptDir%

@@ -19,7 +19,7 @@
 <link rel=mask-icon href=http://www.aboraz.me/favicon/safari-pinned-tab.svg>
 <meta name=theme-color content="#2e2e33">
 <meta name=msapplication-TileColor content="#2e2e33">
-<meta name=generator content="Hugo 0.87.0">
+<meta name=generator content="Hugo 0.88.1">
 <script type=application/javascript>var doNotTrack=!1;doNotTrack||(function(a,e,f,g,b,c,d){a.GoogleAnalyticsObject=b,a[b]=a[b]||function(){(a[b].q=a[b].q||[]).push(arguments)},a[b].l=1*new Date,c=e.createElement(f),d=e.getElementsByTagName(f)[0],c.async=1,c.src=g,d.parentNode.insertBefore(c,d)}(window,document,'script','https://www.google-analytics.com/analytics.js','ga'),ga('create','UA-93925852-1','auto'),ga('send','pageview'))</script><meta property="og:title" content="الاستعمالات الكاملة للأداة ClamAV sigtool">
 <meta property="og:description" content="الاستعمالات الكاملة للأداة sigtool التي يستعملها مضاد الفايروسات الحر ClamAV لإنشاء تعريفات الفيروسات في قاعدة البيانات ووظائف مساعدة متعلقة أخرى">
 <meta property="og:type" content="article">
@@ -83,7 +83,7 @@
 <p>وأثناء حديثنا عن ثلاث المواضيع السابقة قمنا كثيراً باستخدام الأداة sigtool التي تيسر العمل كثيراً.</p>
 <p>سأقوم هنا بشرح الوظائف السابقة مرتبة ومختصرة وأتكلم عن بعض الوظائف والاستخدامات لهذه الأداة والتي لم نتكلم عنها بعد.</p>
 <p><strong>خيارات الأداة:</strong></p>
-<pre><code>-h, --help للمساعدة.
+<pre tabindex=0><code>-h, --help للمساعدة.
 -V, --version  لمعرفة إصدار الأداة.
 --quiet عدم عرض شيء على جهاز الخرج، فقط الأخطاء
 --stdout طباعة جميع الخرج على جهاز الخرج القياسي (الشاشة)
@@ -91,20 +91,20 @@
 <p><strong>خيارات كتابة التعريفات:</strong></p>
 <p><code>--hex-dump تحويل بيانات الدخل إلى رماز مكتوب بنظام العد الستة عشري.</code></p>
 <p>مثال:</p>
-<pre><code>$sigtool --hex-dump
+<pre tabindex=0><code>$sigtool --hex-dump
 aborazmeh
 61626f72617a6d65680a
 $sigtool --hex-dump &amp;lt;test.exe &amp;gt;test.hex
 --md5 [FILES] تحويل بيانات الدخل إلى رماز MD5، أو توليد رماز MD5 للملف المعطى
 </code></pre><p>مثال:</p>
-<pre><code>$sigtool --md5 &amp;lt;test.exe
+<pre tabindex=0><code>$sigtool --md5 &amp;lt;test.exe
 a7a383fc897691d856a0e1ae3a35fd61
 $sigtool --md5 test.exe
 a7a383fc897691d856a0e1ae3a35fd61:4969:test.exe
 $sigtool --md5 test.exe &amp;gt;test.hdb
 --mdb [FILES] توليد تعريفات
 </code></pre><p>مثال:</p>
-<pre><code>$sigtool --mdb &amp;lt;test.exe
+<pre tabindex=0><code>$sigtool --mdb &amp;lt;test.exe
 a7a383fc897691d856a0e1ae3a35fd61
 $sigtool --mdb test.exe
 4969:a7a383fc897691d856a0e1ae3a35fd61:test.exe
@@ -112,20 +112,20 @@ $sigtool --mdb test.exe &amp;gt;test.mdb
 </code></pre><p><strong>التعامل مع بعض الملفات الخاصة:</strong></p>
 <p><code>--html-normalise FILE, --html-normalise=FILE تعديل ملفات HTML إلى صيغتها البدائية، وإنشاء الملفات المعدلة في المجلد الحالي.</code></p>
 <p>مثال:</p>
-<pre><code>$sigtool --html-normalise index.html
+<pre tabindex=0><code>$sigtool --html-normalise index.html
 --utf16-decode FILE, --utf16-decode=FILE فك ترميز ملف مرمز بـUTF16 وإنشاء ملف ASCII.
 </code></pre><p>مثال:</p>
-<pre><code>$sigtool ----utf16-decode ascii.txt
+<pre tabindex=0><code>$sigtool ----utf16-decode ascii.txt
 --vba FILE, --vba=FILE لاستخراج ماكروات لغة VBA من مستندات Mircosoft Office.
 </code></pre><p>مثال:</p>
-<pre><code>$sigtool --vba test.doc
+<pre tabindex=0><code>$sigtool --vba test.doc
 --vba-hex FILE, --vba-hex=FILE لاستخراج ماكروات لغة VBA من مستندات Microsoft Office ثم عرض قيمة رمازه بنظام العد الستة عشري.
 </code></pre><p>مثال:</p>
 <p><code>$sigtool --vba-hex test.doc</code></p>
 <p><strong>التعامل مع ملفات قاعدة البيانات:</strong></p>
 <p><code>-i, --info طباعة معلومات عن قاعدة البيانات من نوع CVD والتحقق من رماز الـMD5.</code></p>
 <p>مثال:</p>
-<pre><code>sigtool -i main.cvd
+<pre tabindex=0><code>sigtool -i main.cvd
 ile: main.cvd
 uild time: 14 May 2009 10:28 -0400
 ersion: 51
@@ -140,10 +140,10 @@ erification OK.
 </code></pre><p>مثال:</p>
 <p><code>$sigtool -u main.cvd</code></p>
 <p>وهذه الملفات هي:</p>
-<pre><code>**COPYING:رخصة الاستخدام وهي هنا GPL2
+<pre tabindex=0><code>**COPYING:رخصة الاستخدام وهي هنا GPL2
 **main.info: معلومات عن إصدار قاعدة البيانات ورمازات MD5 للملفات الأخرى
 </code></pre><p>مثال:</p>
-<pre><code>ClamAV-VDB:14 May 2009 10-28 -0400:51:545035:42:X:X:sven:1242311325
+<pre tabindex=0><code>ClamAV-VDB:14 May 2009 10-28 -0400:51:545035:42:X:X:sven:1242311325
 main.db:f54fe28d3b23b1ee14a6f1b4f69d9bfa
 main.hdb:a400e66195b1b25def52e3e71fe6777c
 main.mdb:6a06dd08ac7ee955255c82af942e8dc5
@@ -158,7 +158,7 @@ main.fp:2eea3ced8da09e0550c325d50d0612c1
 <li><code>main.fp</code>: قائمة الملفات التي سيتجنبها البرنامج أثناء البحث</li>
 <li><code>main.zmd</code>: الملفات التي تنتشر بواسطة ملفات ZIP مشفرة والتي في اسمها اللاحقة: -zippwd</li>
 </ul>
-<pre><code>--unpack-current
+<pre tabindex=0><code>--unpack-current
 Unpack a local CVD file (main or daily) to current directory.
 -b, --build لتجميع قاعدة البيانات CVD من ملفاتها الأساسية (تحتاج إلى الوسيط --server)
 </code></pre><p>مثال:</p>
